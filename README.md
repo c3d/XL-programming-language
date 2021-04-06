@@ -30,6 +30,7 @@ the standard library in XL. You can replace these constructs if you
 want, or add your own. Adding a new kind of loop is not more difficult
 in XL than adding a function, and it uses the same syntax.
 
+* [Docker Quickstart](#docker-quickstart)
 * [Simple examples](#a-few-simple-examples)
 * [Dialects and use cases](#dialects-and-use-cases)
 * [If you come from another language](#if-you-come-from-another-language)
@@ -49,6 +50,17 @@ also available in [asciidoc format](docs/HANDBOOK.adoc) and
 **WARNING** This documentation, like the compiler, is work in progress
 and presently extremely messy, incomplete and inaccurate.
 
+
+## Docker Quickstart
+
+To quickly try out the intrepreter, install Docker and run the following commands:
+
+```
+docker build . -t xl
+docker run -i xl
+```
+
+(Note: to see output, you need to send an EOF signal using Control-D)
 
 ## A few simple examples
 
